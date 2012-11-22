@@ -7,7 +7,7 @@ This repo contains three things:
 2. A set of classes for implementing a simple chat client. (chat)
 3. An example chat server daemon. (simplechatd)
 
-This repo also contains a copy of Apple's TCPServer class.
+This repo also contains a copy of Apple's TCPServer class. **NOTE:** While the rest of the code is written using ARC, this class isn't, and so should be compiled using `-fno-objc-arc`.
 
 The chat client classes (and thus the daemon) require [FMDB](https://github.com/ccgus/fmdb), which is used for message storage.
 
